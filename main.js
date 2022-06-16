@@ -1,15 +1,15 @@
-// variables
 // Buttons selector
 const getStartedBtn = document.querySelector("#get-started-btn");
 const player1Btn = document.querySelector("#player1-btn");
 const player2Btn = document.querySelector("#player2-btn");
 const resetBtn = document.querySelector("#reset-btn");
 
-// Score
+// Score selector
 const luckyNum = document.getElementById("lucky-number");
 const player1Num = document.getElementById("player1-number");
 const player2Num = document.getElementById("player2-number");
 
+// Default score
 let finalNumber = "";
 let player1Number = "";
 let player2Number = "";
